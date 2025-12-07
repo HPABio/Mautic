@@ -1,0 +1,37 @@
+{
+  "id": "closing-personal",
+  "category": "closing",
+  "tags": ["personal", "informal", "close"],
+  "variants": [
+    {
+      "id": "personal-talk-soon",
+      "text": "Talk soon!\n\n{{sender_name}}",
+      "placeholders": ["sender_name"],
+      "use_case": "Very casual, close contacts"
+    },
+    {
+      "id": "personal-catch-up",
+      "text": "Let's catch up soon!\n\n{{sender_name}}",
+      "placeholders": ["sender_name"],
+      "use_case": "Personal invitation to reconnect"
+    },
+    {
+      "id": "personal-thanks",
+      "text": "Thanks {{first_name}}!\n\n{{sender_name}}",
+      "placeholders": ["first_name", "sender_name"],
+      "use_case": "Personalized thank you"
+    },
+    {
+      "id": "personal-excited",
+      "text": "Excited to see what you think!\n\nCheers,\n{{sender_name}}",
+      "placeholders": ["sender_name"],
+      "use_case": "Enthusiastic, personal"
+    },
+    {
+      "id": "personal-minimal",
+      "text": "- {{sender_name}}",
+      "placeholders": ["sender_name"],
+      "use_case": "Minimal, very casual"
+    }
+  ]
+}

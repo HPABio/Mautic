@@ -1,0 +1,31 @@
+{
+  "id": "value-prop-recognition",
+  "category": "value-proposition",
+  "tags": ["recognition", "visibility", "branding", "exposure"],
+  "variants": [
+    {
+      "id": "recognition-connector-program",
+      "text": "In return for your support, we would list you as one of our official connectors on our event page. Special supporters who frequently like and share our posts about the {{event_name}} will be featured on a physical banner at the event in {{event_location}}.",
+      "placeholders": ["event_name", "event_location"],
+      "use_case": "Full connector program description (for share requests)"
+    },
+    {
+      "id": "recognition-listing",
+      "text": "We'll recognize your support by listing {{organization_name}} as an official community partner on our event page and social media.",
+      "placeholders": ["organization_name"],
+      "use_case": "Simple recognition offer"
+    },
+    {
+      "id": "recognition-banner",
+      "text": "Active supporters will be featured on our event materials and a physical banner at the venue in {{event_location}}, giving you visibility in front of key ecosystem players.",
+      "placeholders": ["event_location"],
+      "use_case": "Emphasizes physical banner presence"
+    },
+    {
+      "id": "recognition-press-kit",
+      "text": "If interested, you can use our press kit with logos, example posts, and visuals - all ready to go, just plug & play! Simply follow the link: {{press_kit_url}}",
+      "placeholders": ["press_kit_url"],
+      "use_case": "Mention of press kit availability"
+    }
+  ]
+}

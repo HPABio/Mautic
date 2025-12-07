@@ -1,0 +1,37 @@
+{
+  "id": "cta-apply-contest",
+  "category": "call-to-action",
+  "tags": ["apply", "contest", "submit", "pitch"],
+  "variants": [
+    {
+      "id": "apply-direct",
+      "text": "Ready to pitch? Apply for the contest here:\n{{contest_url}}",
+      "placeholders": ["contest_url"],
+      "use_case": "Simple, direct application CTA"
+    },
+    {
+      "id": "apply-deadline",
+      "text": "Applications are open now! Submit your application by {{deadline}}:\n{{contest_url}}\n\nDon't miss this opportunity to pitch to top investors!",
+      "placeholders": ["deadline", "contest_url"],
+      "use_case": "With deadline specified"
+    },
+    {
+      "id": "apply-with-info",
+      "text": "Interested in participating? Here's what you need to know:\n📝 Application: {{contest_url}}\n📅 Deadline: {{deadline}}\n📧 Questions: {{contact_email}}\n\nWe look forward to hearing your pitch!",
+      "placeholders": ["contest_url", "deadline", "contact_email"],
+      "use_case": "Full info package"
+    },
+    {
+      "id": "apply-curious",
+      "text": "If you're curious about the event yourself, check out our event page or get in contact if you have any follow-up questions:\n🌐 Event info: {{event_website}}\n🎯 Apply to pitch: {{contest_url}}",
+      "placeholders": ["event_website", "contest_url"],
+      "use_case": "For startups who might also want to attend/share (from original)"
+    },
+    {
+      "id": "apply-encourage",
+      "text": "Think you have what investors are looking for? We'd love to see your pitch. Apply here:\n{{contest_url}}",
+      "placeholders": ["contest_url"],
+      "use_case": "Encouraging tone"
+    }
+  ]
+}

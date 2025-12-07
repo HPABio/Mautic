@@ -1,0 +1,26 @@
+{
+  "id": "greeting-formal",
+  "category": "greeting",
+  "tags": ["formal", "professional", "business"],
+  "tone": "formal",
+  "variants": [
+    {
+      "id": "formal-dear-title",
+      "text": "Dear {{title}} {{last_name}},",
+      "placeholders": ["title", "last_name"],
+      "use_case": "When you have title and last name"
+    },
+    {
+      "id": "formal-dear-full",
+      "text": "Dear {{first_name}} {{last_name}},",
+      "placeholders": ["first_name", "last_name"],
+      "use_case": "When you have full name but no title"
+    },
+    {
+      "id": "formal-greetings",
+      "text": "Greetings,",
+      "placeholders": [],
+      "use_case": "When you don't have a name"
+    }
+  ]
+}

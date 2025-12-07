@@ -1,0 +1,31 @@
+{
+  "id": "cta-share-social",
+  "category": "call-to-action",
+  "tags": ["share", "social", "promote", "spread"],
+  "variants": [
+    {
+      "id": "share-press-kit",
+      "text": "If interested, you can use our press kit with logos, some example posts, and corresponding visuals - all ready to go, just plug & play! Simply follow the link below:\n{{press_kit_url}}",
+      "placeholders": ["press_kit_url"],
+      "use_case": "With press kit (from original email)"
+    },
+    {
+      "id": "share-simple-ask",
+      "text": "Would you be willing to share information about the event with your network? Even a single social media post or email forward would be tremendously helpful.",
+      "placeholders": [],
+      "use_case": "Simple, low-pressure ask"
+    },
+    {
+      "id": "share-multiple-channels",
+      "text": "Here are a few ways you can help spread the word:\n- Share our event on LinkedIn, Twitter, or your preferred social platform\n- Forward this email to relevant contacts\n- Mention the event in your newsletter or community updates\n\nEvery share helps us reach more people in the biotech community!",
+      "placeholders": [],
+      "use_case": "Multiple sharing options"
+    },
+    {
+      "id": "share-with-assets",
+      "text": "We've prepared everything you need to share the event:\n📦 Press kit: {{press_kit_url}}\n📄 Event details: {{event_website}}\n\nFeel free to use any or all of these resources to promote the {{event_name}} to your audience.",
+      "placeholders": ["press_kit_url", "event_website", "event_name"],
+      "use_case": "With multiple resources"
+    }
+  ]
+}

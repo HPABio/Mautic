@@ -1,0 +1,26 @@
+{
+  "id": "greeting-personal",
+  "category": "greeting",
+  "tags": ["personal", "informal", "close", "friendly"],
+  "tone": "personal",
+  "variants": [
+    {
+      "id": "personal-hey",
+      "text": "Hey {{first_name}},",
+      "placeholders": ["first_name"],
+      "use_case": "Very casual, close contacts"
+    },
+    {
+      "id": "personal-hey-whatsup",
+      "text": "Hey {{first_name}}, what's up?",
+      "placeholders": ["first_name"],
+      "use_case": "Very informal, personal contacts"
+    },
+    {
+      "id": "personal-hi-hope",
+      "text": "Hi {{first_name}}, hope you're doing well!",
+      "placeholders": ["first_name"],
+      "use_case": "Warm, personal touch"
+    }
+  ]
+}

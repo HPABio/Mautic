@@ -1,0 +1,40 @@
+{
+  "event": {
+    "name": "SynBio Reactor Summit",
+    "tagline": "Where Biotech Innovation Meets Investment",
+    "date": "June 15, 2024",
+    "time": "9:00 AM - 6:00 PM",
+    "location": "Berlin, Germany",
+    "sectors": ["Synthetic Biology", "Biotechnology", "Bio-based Innovation"],
+    "focus": "Connecting biotech startups with investors, fostering European bio-based ecosystem",
+    "organizer": "SynBio Reactor (Non-profit)",
+    "website": "https://synbioreactor.org/summit",
+    "press_kit_url": "https://synbioreactor.org/press-kit",
+    "ticket_url": "https://synbioreactor.org/tickets",
+    "contest_url": "https://synbioreactor.org/pitch-contest"
+  },
+  "features": {
+    "pitch_contest": {
+      "name": "Startup Pitch Contest",
+      "description": "Biotech startups compete for prizes and investor attention",
+      "benefits": [
+        "Direct access to top-tier investors",
+        "Exposure to media and industry leaders",
+        "Valuable feedback from experienced judges",
+        "Networking with fellow founders and ecosystem partners"
+      ]
+    },
+    "networking": {
+      "description": "Curated networking sessions connecting startups, investors, academics, and industry partners"
+    },
+    "recognition_program": {
+      "connector_listing": "Listed as official connector on event website and materials",
+      "special_supporter": "Featured on physical banner at the event venue in Berlin",
+      "requirements": "Frequently like and share posts about the SynBio Reactor Summit on social media"
+    }
+  },
+  "nonprofit_context": {
+    "limitation": "As a non-profit organization, it is not possible for us to use paid advertising to promote the event.",
+    "community_reliance": "Instead, we rely on biotech community members like you to help spread the word about the summit."
+  }
+}

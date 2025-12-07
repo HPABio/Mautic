@@ -1,0 +1,25 @@
+{
+  "id": "opener-introduction",
+  "category": "opener",
+  "tags": ["intro", "context", "background"],
+  "variants": [
+    {
+      "id": "intro-event",
+      "text": "I'm writing to you about the {{event_name}}, an upcoming event focused on connecting biotech startups with investors and industry leaders.",
+      "placeholders": ["event_name"],
+      "use_case": "Straightforward event introduction"
+    },
+    {
+      "id": "intro-organization",
+      "text": "I'm {{sender_name}} from {{sender_organization}}, a non-profit organization dedicated to fostering the European bio-based ecosystem.",
+      "placeholders": ["sender_name", "sender_organization"],
+      "use_case": "When recipient may not know you"
+    },
+    {
+      "id": "intro-quick-request",
+      "text": "I'll keep this brief - we have a quick request that could benefit both our organizations.",
+      "placeholders": [],
+      "use_case": "Direct, time-conscious opener"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "event-info-logistics",
+  "category": "event-info",
+  "tags": ["logistics", "practical", "datetime", "location", "details"],
+  "variants": [
+    {
+      "id": "logistics-full",
+      "text": "📅 Date: {{event_date}}\n⏰ Time: {{event_time}}\n📍 Location: {{event_location}}\n🌐 More info: {{event_website}}",
+      "placeholders": ["event_date", "event_time", "event_location", "event_website"],
+      "use_case": "Complete logistics with emojis"
+    },
+    {
+      "id": "logistics-simple",
+      "text": "Date: {{event_date}}\nLocation: {{event_location}}\nMore information: {{event_website}}",
+      "placeholders": ["event_date", "event_location", "event_website"],
+      "use_case": "Simple logistics without emojis"
+    },
+    {
+      "id": "logistics-tbd",
+      "text": "The event will take place in {{event_location}}. Exact date and time will be announced soon. Stay updated at {{event_website}}.",
+      "placeholders": ["event_location", "event_website"],
+      "use_case": "When date/time not yet confirmed"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "value-prop-community",
+  "category": "value-proposition",
+  "tags": ["community", "ecosystem", "collaboration", "impact"],
+  "variants": [
+    {
+      "id": "community-ecosystem-building",
+      "text": "By supporting this event, you're helping to foster the European bio-based ecosystem and create opportunities for the next generation of biotech innovators.",
+      "placeholders": [],
+      "use_case": "Mission-driven appeal"
+    },
+    {
+      "id": "community-collective-impact",
+      "text": "Together, we're building a thriving biotech community in Europe. Your participation helps create the connections and collaborations that drive innovation forward.",
+      "placeholders": [],
+      "use_case": "Collective action framing"
+    },
+    {
+      "id": "community-local-ecosystem",
+      "text": "This event strengthens the local biotech ecosystem by bringing together diverse stakeholders - from academic researchers to industry veterans to early-stage founders.",
+      "placeholders": [],
+      "use_case": "Local/regional impact angle"
+    },
+    {
+      "id": "community-nonprofit-mission",
+      "text": "Thanks for supporting the community! As a non-profit, every share, every connection, and every conversation helps us fulfill our mission of advancing European biotech innovation.",
+      "placeholders": [],
+      "use_case": "Gratitude + nonprofit mission (good for closings)"
+    }
+  ]
+}

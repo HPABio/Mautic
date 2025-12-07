@@ -1,0 +1,31 @@
+{
+  "id": "value-prop-networking",
+  "category": "value-proposition",
+  "tags": ["networking", "connections", "relationships", "community"],
+  "variants": [
+    {
+      "id": "networking-ecosystem",
+      "text": "This is an excellent opportunity to connect with key players in the European biotech ecosystem - from innovative startups to experienced investors and industry leaders.",
+      "placeholders": [],
+      "use_case": "General networking value"
+    },
+    {
+      "id": "networking-curated",
+      "text": "We're creating a highly curated environment for meaningful connections. You'll have access to networking sessions designed to facilitate substantive conversations, not just small talk.",
+      "placeholders": [],
+      "use_case": "Emphasizes quality over quantity"
+    },
+    {
+      "id": "networking-peers",
+      "text": "Connect with fellow {{audience_type}} who are actively shaping the future of biotech in Europe. This is your chance to build relationships that matter.",
+      "placeholders": ["audience_type"],
+      "use_case": "Peer-to-peer networking (e.g., 'founders', 'investors')"
+    },
+    {
+      "id": "networking-specific",
+      "text": "You'll have the opportunity to meet {{specific_groups}} in intimate settings designed for authentic connection and collaboration.",
+      "placeholders": ["specific_groups"],
+      "use_case": "When you can specify who they'll meet (e.g., '20+ active biotech investors')"
+    }
+  ]
+}

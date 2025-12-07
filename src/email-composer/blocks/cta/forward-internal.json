@@ -1,0 +1,31 @@
+{
+  "id": "cta-forward-internal",
+  "category": "call-to-action",
+  "tags": ["forward", "internal", "delegate", "share"],
+  "variants": [
+    {
+      "id": "forward-simple",
+      "text": "Please feel free to forward this email to anyone who might be interested. More information is available at:\n{{event_website}}",
+      "placeholders": ["event_website"],
+      "use_case": "Simple forward request"
+    },
+    {
+      "id": "forward-students-specific",
+      "text": "Would you be willing to share this opportunity with your PhD students and postdocs? We've created materials specifically for academic audiences:\n{{event_website}}",
+      "placeholders": ["event_website"],
+      "use_case": "For grad schools/universities"
+    },
+    {
+      "id": "forward-department",
+      "text": "If this aligns with your department's interests, we'd appreciate you forwarding this to relevant colleagues or students. All event details can be found here:\n{{event_website}}",
+      "placeholders": ["event_website"],
+      "use_case": "Polite department-wide forward request"
+    },
+    {
+      "id": "forward-with-resources",
+      "text": "Feel free to forward this email or share our event page with anyone in your network who might benefit:\n🌐 {{event_website}}\n📧 Contact: {{contact_email}}",
+      "placeholders": ["event_website", "contact_email"],
+      "use_case": "With contact info for questions"
+    }
+  ]
+}

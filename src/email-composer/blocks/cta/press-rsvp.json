@@ -1,0 +1,43 @@
+{
+  "id": "cta-press-rsvp",
+  "category": "call-to-action",
+  "tags": ["journalist", "media", "press", "rsvp", "coverage"],
+  "variants": [
+    {
+      "id": "press-simple-rsvp",
+      "text": "Interested in attending? Simply reply to this email and I'll reserve your complimentary press pass.",
+      "placeholders": [],
+      "use_case": "Simple, low-friction response request"
+    },
+    {
+      "id": "press-confirm-coverage",
+      "text": "If you're interested in attending and potentially covering the event, please let me know and I'll:\n- Reserve your complimentary press pass\n- Send you the press kit with event details and visuals\n- Arrange any interviews you'd like to conduct\n\nJust reply to this email to confirm!",
+      "placeholders": [],
+      "use_case": "Detailed offer with press support"
+    },
+    {
+      "id": "press-exchange-confirmation",
+      "text": "To claim your free press pass, simply reply confirming:\n1. You'll attend the event on {{event_date}}\n2. You'll share a mention (social media post, article, or newsletter feature)\n\nOnce confirmed, I'll send over all the details and materials you'll need.",
+      "placeholders": ["event_date"],
+      "use_case": "Explicit exchange - attendance + coverage"
+    },
+    {
+      "id": "press-flexible-coverage",
+      "text": "Interested? Reply to this email and let me know what kind of coverage you're thinking - whether it's a social media shoutout, a brief mention in your newsletter, or a full article. We're flexible and happy to work with whatever fits your editorial calendar!",
+      "placeholders": [],
+      "use_case": "Flexible, accommodating approach"
+    },
+    {
+      "id": "press-contact-options",
+      "text": "To reserve your press pass and discuss coverage options:\n📧 Reply to this email\n📞 Call me at {{phone_number}}\n🌐 View event details: {{event_website}}\n\nI'm happy to answer any questions and arrange interview access with startups or investors you'd like to feature.",
+      "placeholders": ["phone_number", "event_website"],
+      "use_case": "Multiple contact options with phone"
+    },
+    {
+      "id": "press-deadline-rsvp",
+      "text": "Press passes are limited, so please RSVP by {{rsvp_deadline}} if you're interested. Simply reply to confirm and I'll send over your pass and the full press kit.\n\nLooking forward to seeing you there!",
+      "placeholders": ["rsvp_deadline"],
+      "use_case": "Creates urgency with deadline"
+    }
+  ]
+}

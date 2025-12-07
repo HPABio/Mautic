@@ -1,0 +1,94 @@
+{
+  "audiences": {
+    "nonprofits": {
+      "name": "Nonprofit Organizations",
+      "tone": "casual",
+      "intention": "ask-share",
+      "valueProps": ["recognition", "community"],
+      "cta": "share-social",
+      "eventInfo": "brief",
+      "tags": ["partnership", "community"],
+      "subjectTemplate": "Partnership Opportunity: {{event_name}}"
+    },
+    "vcs": {
+      "name": "Venture Capitalists & Investors",
+      "tone": "formal",
+      "intention": "invite-attend",
+      "valueProps": ["deal-flow", "networking"],
+      "cta": "buy-ticket",
+      "eventInfo": "detailed",
+      "tags": ["investor", "formal"],
+      "subjectTemplate": "Invitation: {{event_name}} - Biotech Startup Showcase"
+    },
+    "startups-pitch": {
+      "name": "Startups (Pitch Contest)",
+      "tone": "casual",
+      "intention": "invite-participate",
+      "valueProps": ["exposure", "networking"],
+      "cta": "apply-contest",
+      "eventInfo": "contest",
+      "tags": ["startup", "competition"],
+      "subjectTemplate": "Pitch Your Startup at {{event_name}}"
+    },
+    "startups-share": {
+      "name": "Startups (Share Event)",
+      "tone": "casual",
+      "intention": "ask-share",
+      "valueProps": ["recognition", "community"],
+      "cta": "share-social",
+      "eventInfo": "brief",
+      "tags": ["startup", "community"],
+      "subjectTemplate": "Help Us Spread the Word: {{event_name}}"
+    },
+    "gradschools": {
+      "name": "Graduate Schools & Universities",
+      "tone": "formal",
+      "intention": "forward-request",
+      "valueProps": ["community", "networking"],
+      "cta": "forward-internal",
+      "eventInfo": "detailed",
+      "tags": ["academic", "students"],
+      "subjectTemplate": "Student Opportunity: {{event_name}}"
+    },
+    "mentors": {
+      "name": "Mentors & Judges",
+      "tone": "casual",
+      "intention": "invite-mentor",
+      "valueProps": ["recognition", "networking", "community"],
+      "cta": "respond-interest",
+      "eventInfo": "contest",
+      "tags": ["mentor", "expert"],
+      "subjectTemplate": "Invitation to Judge: {{event_name}} Pitch Contest"
+    },
+    "startup-factories": {
+      "name": "Incubators & Accelerators",
+      "tone": "formal",
+      "intention": "invite-attend",
+      "valueProps": ["community", "networking", "recognition"],
+      "cta": "respond-interest",
+      "eventInfo": "detailed",
+      "tags": ["ecosystem", "partner"],
+      "subjectTemplate": "Connect with Biotech Ecosystem: {{event_name}}"
+    },
+    "vips": {
+      "name": "VIPs & Speakers",
+      "tone": "personal",
+      "intention": "invite-attend",
+      "valueProps": ["networking", "recognition"],
+      "cta": "respond-interest",
+      "eventInfo": "brief",
+      "tags": ["vip", "personal"],
+      "subjectTemplate": "Personal Invitation: {{event_name}}"
+    },
+    "journalists": {
+      "name": "Journalists & Media",
+      "tone": "casual",
+      "intention": "invite-attend",
+      "valueProps": ["press-access", "media-story"],
+      "cta": "press-rsvp",
+      "eventInfo": "brief",
+      "tags": ["press", "media"],
+      "subjectTemplate": "Press Invitation: {{event_name}}"
+    }
+  }
+}
