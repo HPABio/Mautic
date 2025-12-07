@@ -1,0 +1,31 @@
+{
+  "id": "intention-invite-attend",
+  "category": "intention",
+  "tags": ["invite", "attend", "ticket", "participate"],
+  "variants": [
+    {
+      "id": "attend-vc-dealflow",
+      "text": "We'd like to invite you to attend the {{event_name}}, where you'll have the opportunity to meet innovative biotech startups seeking funding and connect with fellow investors.",
+      "placeholders": ["event_name"],
+      "use_case": "For VCs - emphasizes deal flow"
+    },
+    {
+      "id": "attend-networking",
+      "text": "We would be delighted to have you join us at the {{event_name}} on {{event_date}} in {{event_location}}. This is a unique opportunity to connect with key players in the {{sector}} ecosystem.",
+      "placeholders": ["event_name", "event_date", "event_location", "sector"],
+      "use_case": "General invitation emphasizing networking"
+    },
+    {
+      "id": "attend-vip",
+      "text": "We're extending an exclusive invitation for you to attend the {{event_name}}. Your presence and insights would add tremendous value to our community gathering.",
+      "placeholders": ["event_name"],
+      "use_case": "VIP invitation - exclusive tone"
+    },
+    {
+      "id": "attend-factory-brand",
+      "text": "We'd like to invite {{organization_name}} to participate in the {{event_name}}. This would be an excellent opportunity to establish your presence in the European biotech ecosystem and connect with startups and investors.",
+      "placeholders": ["organization_name", "event_name"],
+      "use_case": "For startup factories - brand building angle"
+    }
+  ]
+}

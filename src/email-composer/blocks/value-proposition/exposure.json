@@ -1,0 +1,37 @@
+{
+  "id": "value-prop-exposure",
+  "category": "value-proposition",
+  "tags": ["startup", "exposure", "pitch", "visibility", "investors"],
+  "variants": [
+    {
+      "id": "exposure-investors",
+      "text": "Gain direct exposure to active investors who are specifically looking for biotech and SynBio innovations. This is your chance to get in front of decision-makers who can actually write checks.",
+      "placeholders": [],
+      "use_case": "Investor access for startups"
+    },
+    {
+      "id": "exposure-pitch-stage",
+      "text": "Pitching at our event gives you a platform to showcase your innovation to a room full of investors, potential partners, and media - all in one place.",
+      "placeholders": [],
+      "use_case": "Platform/stage opportunity"
+    },
+    {
+      "id": "exposure-ecosystem-visibility",
+      "text": "Increase your visibility in the European biotech ecosystem. Past participants have secured funding, partnerships, and media coverage as a result of their participation.",
+      "placeholders": [],
+      "use_case": "Broad exposure benefits"
+    },
+    {
+      "id": "exposure-feedback",
+      "text": "Beyond potential funding, you'll receive valuable feedback from experienced judges and have the opportunity to refine your pitch in a supportive environment.",
+      "placeholders": [],
+      "use_case": "Learning/feedback angle"
+    },
+    {
+      "id": "exposure-booth-presence",
+      "text": "Participating companies will have exhibition space to showcase their technology and engage with attendees throughout the event.",
+      "placeholders": [],
+      "use_case": "When booth/exhibition space is included"
+    }
+  ]
+}

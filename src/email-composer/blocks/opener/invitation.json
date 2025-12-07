@@ -1,0 +1,25 @@
+{
+  "id": "opener-invitation",
+  "category": "opener",
+  "tags": ["invite", "attend", "exclusive"],
+  "variants": [
+    {
+      "id": "invite-exclusive",
+      "text": "I'd like to personally invite you to the {{event_name}}, taking place on {{event_date}} in {{event_location}}.",
+      "placeholders": ["event_name", "event_date", "event_location"],
+      "use_case": "Direct invitation, VIP treatment"
+    },
+    {
+      "id": "invite-opportunity",
+      "text": "We're hosting an exciting event that we think would be highly relevant to your work in {{sector}}.",
+      "placeholders": ["sector"],
+      "use_case": "Personalized based on their industry"
+    },
+    {
+      "id": "invite-network",
+      "text": "Given your active involvement in the {{sector}} community, we'd love to have you join us at the {{event_name}}.",
+      "placeholders": ["sector", "event_name"],
+      "use_case": "Acknowledges their community presence"
+    }
+  ]
+}

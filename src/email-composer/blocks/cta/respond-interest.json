@@ -1,0 +1,43 @@
+{
+  "id": "cta-respond-interest",
+  "category": "call-to-action",
+  "tags": ["respond", "reply", "interest", "contact"],
+  "variants": [
+    {
+      "id": "respond-simple",
+      "text": "If you're interested, please let me know and I'll send you more details.",
+      "placeholders": [],
+      "use_case": "Simple interest check"
+    },
+    {
+      "id": "respond-mentor-judge",
+      "text": "If you're interested in serving as a mentor and judge, please reply to this email and we'll send you more information about the time commitment and logistics.",
+      "placeholders": [],
+      "use_case": "For mentor/judge invitations"
+    },
+    {
+      "id": "respond-multiple-options",
+      "text": "Interested? Here are your next steps:\n- Reply to this email with any questions\n- Visit {{event_website}} for full details\n- Contact us at {{contact_email}}\n\nWe'd love to have you involved!",
+      "placeholders": ["event_website", "contact_email"],
+      "use_case": "Multiple response options"
+    },
+    {
+      "id": "respond-vip-personal",
+      "text": "I'd love to discuss this further with you. Feel free to reply to this email or give me a call at {{phone_number}}.",
+      "placeholders": ["phone_number"],
+      "use_case": "Personal touch for VIPs (when phone provided)"
+    },
+    {
+      "id": "respond-no-pressure",
+      "text": "No pressure - if this resonates with you, simply reply to this email and we can discuss the details. Either way, I hope to see you at future events!",
+      "placeholders": [],
+      "use_case": "Low-pressure, friendly response request"
+    },
+    {
+      "id": "respond-calendar",
+      "text": "If you're interested, let's find a time to chat. You can reply to this email or book a quick call here: {{calendar_link}}",
+      "placeholders": ["calendar_link"],
+      "use_case": "When calendar booking link is available"
+    }
+  ]
+}

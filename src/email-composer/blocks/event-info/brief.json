@@ -1,0 +1,25 @@
+{
+  "id": "event-info-brief",
+  "category": "event-info",
+  "tags": ["brief", "summary", "overview"],
+  "variants": [
+    {
+      "id": "brief-one-liner",
+      "text": "The {{event_name}} is a startup-focused event connecting biotech innovators with investors and industry leaders.",
+      "placeholders": ["event_name"],
+      "use_case": "Minimal info, one sentence"
+    },
+    {
+      "id": "brief-basic",
+      "text": "The {{event_name}} brings together startups, investors, and thought leaders in the biotech and synthetic biology sectors. The event takes place in {{event_location}} and features networking, a startup pitch contest, and more.",
+      "placeholders": ["event_name", "event_location"],
+      "use_case": "Short paragraph with key highlights"
+    },
+    {
+      "id": "brief-with-date",
+      "text": "Join us for the {{event_name}} on {{event_date}} in {{event_location}}. This event connects biotech startups with investors and creates opportunities for collaboration in the European bio-based ecosystem.",
+      "placeholders": ["event_name", "event_date", "event_location"],
+      "use_case": "Brief with logistics"
+    }
+  ]
+}

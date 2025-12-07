@@ -1,0 +1,37 @@
+{
+  "id": "value-prop-press-access",
+  "category": "value-proposition",
+  "tags": ["journalist", "media", "press", "free-ticket", "complimentary", "access"],
+  "variants": [
+    {
+      "id": "press-free-ticket",
+      "text": "We're offering complimentary press passes to journalists and media professionals covering the biotech and startup ecosystem. Your ticket is on us!",
+      "placeholders": [],
+      "use_case": "Standard free ticket offer for journalists"
+    },
+    {
+      "id": "press-exclusive-access",
+      "text": "As a member of the press, you'll receive a complimentary ticket plus exclusive access to backstage areas, press briefings, and one-on-one interviews with speakers, investors, and startup founders.",
+      "placeholders": [],
+      "use_case": "Premium press access with additional perks"
+    },
+    {
+      "id": "press-exchange-coverage",
+      "text": "In exchange for a mention or article about the {{event_name}}, we'd be delighted to offer you a free press pass. Whether it's a brief social media post or a full feature article, we'd appreciate any coverage you can provide.",
+      "placeholders": ["event_name"],
+      "use_case": "Explicit exchange - free ticket for coverage"
+    },
+    {
+      "id": "press-no-obligation",
+      "text": "We're providing complimentary press passes for journalists interested in covering European biotech innovation. No obligation to write - though we'd be thrilled if you found a story worth sharing with your audience!",
+      "placeholders": [],
+      "use_case": "Low-pressure offer, coverage optional but encouraged"
+    },
+    {
+      "id": "press-value-exchange",
+      "text": "We'd love to exchange a complimentary press pass for a shoutout about the event. Even a single social media post or newsletter mention would help us reach the innovators and investors who make up our community.",
+      "placeholders": [],
+      "use_case": "Emphasizes mutual value exchange"
+    }
+  ]
+}

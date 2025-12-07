@@ -1,0 +1,25 @@
+{
+  "id": "intention-invite-participate",
+  "category": "intention",
+  "tags": ["invite", "participate", "contest", "pitch", "apply"],
+  "variants": [
+    {
+      "id": "participate-pitch-contest",
+      "text": "We're inviting {{company_name}} to participate in our Startup Pitch Contest at the {{event_name}}. This is your chance to pitch your innovation to top-tier investors and industry leaders in the biotech space.",
+      "placeholders": ["company_name", "event_name"],
+      "use_case": "Direct pitch contest invitation for startups"
+    },
+    {
+      "id": "participate-application-open",
+      "text": "Applications are now open for the Startup Pitch Contest at {{event_name}}. We're looking for innovative biotech and SynBio companies to showcase their solutions to investors and industry experts.",
+      "placeholders": ["event_name"],
+      "use_case": "Open call for applications"
+    },
+    {
+      "id": "participate-exposure",
+      "text": "We'd like to invite you to apply for our pitch contest - an opportunity to gain exposure, secure potential funding, and connect with the European biotech ecosystem's key players.",
+      "placeholders": [],
+      "use_case": "Benefits-focused pitch invitation"
+    }
+  ]
+}

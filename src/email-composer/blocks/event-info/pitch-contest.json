@@ -1,0 +1,25 @@
+{
+  "id": "event-info-pitch-contest",
+  "category": "event-info",
+  "tags": ["contest", "startup", "pitch", "competition"],
+  "variants": [
+    {
+      "id": "contest-overview",
+      "text": "Our Startup Pitch Contest is the centerpiece of the {{event_name}}. Selected startups will have the opportunity to pitch their innovations to a panel of experienced investors and industry leaders. Benefits include:\n\n- Direct exposure to active investors in biotech\n- Expert feedback from industry veterans\n- Networking with fellow founders and potential partners\n- Media coverage and visibility in the ecosystem\n- Prize opportunities (details to be announced)",
+      "placeholders": ["event_name"],
+      "use_case": "Full pitch contest description"
+    },
+    {
+      "id": "contest-short",
+      "text": "The event features a startup pitch contest where selected biotech companies present to investors and judges for a chance to win prizes and secure funding.",
+      "placeholders": [],
+      "use_case": "Brief contest mention"
+    },
+    {
+      "id": "contest-application",
+      "text": "To participate in the pitch contest, simply submit your application at {{contest_url}}. We're looking for innovative biotech and synthetic biology startups at various stages. Selected companies will be notified by {{notification_date}}.",
+      "placeholders": ["contest_url", "notification_date"],
+      "use_case": "Application instructions"
+    }
+  ]
+}

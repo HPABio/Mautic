@@ -1,0 +1,31 @@
+{
+  "id": "value-prop-dealflow",
+  "category": "value-proposition",
+  "tags": ["vc", "investment", "dealflow", "startups", "investors"],
+  "variants": [
+    {
+      "id": "dealflow-quality",
+      "text": "This event provides access to a curated selection of biotech startups actively seeking funding. Our pitch contest features companies that have been vetted for innovation and market potential.",
+      "placeholders": [],
+      "use_case": "Emphasizes quality of startups"
+    },
+    {
+      "id": "dealflow-early-access",
+      "text": "Get early access to emerging biotech innovations before they hit the mainstream investor circuit. Many past attendees have found their next portfolio company at our events.",
+      "placeholders": [],
+      "use_case": "Early-stage opportunity angle"
+    },
+    {
+      "id": "dealflow-direct",
+      "text": "You'll have direct access to founders during pitch sessions, networking breaks, and informal gatherings - a more efficient way to evaluate opportunities than cold emails and pitch decks.",
+      "placeholders": [],
+      "use_case": "Efficiency/access angle"
+    },
+    {
+      "id": "dealflow-sector-focus",
+      "text": "Unlike general startup events, we focus exclusively on biotech and synthetic biology, ensuring that every startup you meet is relevant to your investment thesis.",
+      "placeholders": [],
+      "use_case": "Sector specialization angle"
+    }
+  ]
+}

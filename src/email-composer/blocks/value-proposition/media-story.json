@@ -1,0 +1,43 @@
+{
+  "id": "value-prop-media-story",
+  "category": "value-proposition",
+  "tags": ["journalist", "media", "story", "content", "coverage", "angle"],
+  "variants": [
+    {
+      "id": "story-rich-content",
+      "text": "This event is packed with compelling stories - from breakthrough biotech innovations to the investors backing Europe's next generation of bio-based companies. You'll have access to founders, VCs, and scientists all in one place.",
+      "placeholders": [],
+      "use_case": "Emphasizes variety of story angles"
+    },
+    {
+      "id": "story-innovation-angle",
+      "text": "The {{event_name}} showcases cutting-edge innovations in synthetic biology and biotech - exactly the kind of future-focused content your readers are interested in. You'll get direct access to the innovators behind these technologies.",
+      "placeholders": ["event_name"],
+      "use_case": "Focus on innovation and technology stories"
+    },
+    {
+      "id": "story-ecosystem-angle",
+      "text": "If you're covering the European startup ecosystem, this event offers unique insight into how biotech companies secure funding and bring their innovations to market. It's a microcosm of the entire bio-based innovation pipeline.",
+      "placeholders": [],
+      "use_case": "Business/ecosystem journalism angle"
+    },
+    {
+      "id": "story-exclusive-interviews",
+      "text": "We'll facilitate exclusive interviews with participating startups, investors, and industry leaders. You'll have the opportunity to break stories about funding rounds, partnerships, and breakthrough innovations before they hit the mainstream press.",
+      "placeholders": [],
+      "use_case": "Emphasizes exclusive access and scoops"
+    },
+    {
+      "id": "story-human-interest",
+      "text": "Behind every biotech startup is a compelling human story - researchers-turned-founders, bold investors betting on science, and innovations that could change lives. The {{event_name}} gives you access to these stories firsthand.",
+      "placeholders": ["event_name"],
+      "use_case": "Human interest and founder story angle"
+    },
+    {
+      "id": "story-press-kit",
+      "text": "We'll provide you with a press kit including high-resolution images, founder bios, company fact sheets, and interview opportunities. Everything you need to craft a compelling story about Europe's biotech future.",
+      "placeholders": [],
+      "use_case": "Practical support - press materials provided"
+    }
+  ]
+}

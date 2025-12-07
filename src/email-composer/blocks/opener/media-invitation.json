@@ -1,0 +1,37 @@
+{
+  "id": "opener-media-invitation",
+  "category": "opener",
+  "tags": ["journalist", "media", "press", "coverage"],
+  "variants": [
+    {
+      "id": "media-press-invite",
+      "text": "I'm reaching out to invite you to cover the {{event_name}}, an upcoming event showcasing Europe's most promising biotech startups and the investors backing them.",
+      "placeholders": ["event_name"],
+      "use_case": "Direct press invitation"
+    },
+    {
+      "id": "media-story-pitch",
+      "text": "I think you'd find the {{event_name}} interesting for {{publication_name}}. We're bringing together biotech innovators, investors, and industry leaders - all with compelling stories to tell.",
+      "placeholders": ["event_name", "publication_name"],
+      "use_case": "When you know their publication/outlet"
+    },
+    {
+      "id": "media-beat-relevant",
+      "text": "Given your coverage of {{beat_topic}}, I wanted to make sure you knew about the {{event_name}} happening in {{event_location}}.",
+      "placeholders": ["beat_topic", "event_name", "event_location"],
+      "use_case": "When you know their beat/coverage area"
+    },
+    {
+      "id": "media-press-pass-offer",
+      "text": "We're extending complimentary press passes to select journalists covering the biotech and startup ecosystem, and I'd love to reserve one for you.",
+      "placeholders": [],
+      "use_case": "Lead with the free ticket offer"
+    },
+    {
+      "id": "media-mutual-benefit",
+      "text": "I'm reaching out with a potential collaboration opportunity. We're hosting the {{event_name}} and would love to offer you a complimentary press pass in exchange for helping us spread the word about the event.",
+      "placeholders": ["event_name"],
+      "use_case": "Explicit collaboration framing"
+    }
+  ]
+}

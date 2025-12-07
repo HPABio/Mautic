@@ -1,0 +1,43 @@
+{
+  "id": "closing-friendly",
+  "category": "closing",
+  "tags": ["friendly", "warm", "approachable"],
+  "variants": [
+    {
+      "id": "friendly-thanks-community",
+      "text": "Thanks for supporting the community!\n\nBest,\n{{sender_name}}\n{{sender_organization}}",
+      "placeholders": ["sender_name", "sender_organization"],
+      "use_case": "Community-focused (from original email)"
+    },
+    {
+      "id": "friendly-thanks-ecosystem",
+      "text": "Thanks for helping us foster the European bio-based ecosystem!\n\nCheers,\n{{sender_name}}\n{{sender_organization}}",
+      "placeholders": ["sender_name", "sender_organization"],
+      "use_case": "Mission-focused (from original email)"
+    },
+    {
+      "id": "friendly-best",
+      "text": "Best,\n{{sender_name}}\n{{sender_title}}, {{sender_organization}}",
+      "placeholders": ["sender_name", "sender_title", "sender_organization"],
+      "use_case": "Simple, professional but friendly"
+    },
+    {
+      "id": "friendly-cheers",
+      "text": "Cheers,\n{{sender_name}}",
+      "placeholders": ["sender_name"],
+      "use_case": "Casual and brief"
+    },
+    {
+      "id": "friendly-looking-forward",
+      "text": "Looking forward to connecting!\n\nWarm regards,\n{{sender_name}}\n{{sender_organization}}",
+      "placeholders": ["sender_name", "sender_organization"],
+      "use_case": "Warm and anticipatory"
+    },
+    {
+      "id": "friendly-hope-to-see",
+      "text": "Hope to see you there!\n\nBest,\n{{sender_name}}\n{{sender_organization}}",
+      "placeholders": ["sender_name", "sender_organization"],
+      "use_case": "Event-focused closing"
+    }
+  ]
+}

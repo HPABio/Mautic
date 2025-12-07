@@ -1,0 +1,19 @@
+{
+  "id": "event-info-detailed",
+  "category": "event-info",
+  "tags": ["detailed", "comprehensive", "full"],
+  "variants": [
+    {
+      "id": "detailed-full",
+      "text": "The {{event_name}} is our flagship event bringing together the European biotech and synthetic biology ecosystem. Taking place in {{event_location}}, this gathering features:\n\n- Startup pitch competition with top-tier judges\n- Networking sessions with investors, founders, and industry leaders\n- Panel discussions on the latest trends in biotech innovation\n- Exhibition space for startups and sponsors\n\nThis is a unique opportunity to connect with the most active players in the European bio-based startup scene.",
+      "placeholders": ["event_name", "event_location"],
+      "use_case": "Comprehensive event description with features"
+    },
+    {
+      "id": "detailed-value-focused",
+      "text": "The {{event_name}} is designed to accelerate the European biotech ecosystem by creating meaningful connections between startups seeking funding and investors looking for the next breakthrough. Whether you're a founder, investor, researcher, or industry expert, you'll find valuable opportunities to learn, connect, and collaborate.\n\nKey highlights include our startup pitch contest, curated networking sessions, and access to some of the brightest minds in biotech and synthetic biology.",
+      "placeholders": ["event_name"],
+      "use_case": "Value-proposition focused description"
+    }
+  ]
+}

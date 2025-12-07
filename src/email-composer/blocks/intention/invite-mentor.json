@@ -1,0 +1,31 @@
+{
+  "id": "intention-invite-mentor",
+  "category": "intention",
+  "tags": ["invite", "mentor", "judge", "expert", "panel"],
+  "variants": [
+    {
+      "id": "mentor-judge-direct",
+      "text": "We're looking for experienced professionals to serve as mentors and judges for our startup pitch contest at the {{event_name}}. Would you be interested in joining our panel?",
+      "placeholders": ["event_name"],
+      "use_case": "Direct ask for mentors/judges"
+    },
+    {
+      "id": "mentor-expertise",
+      "text": "Given your expertise in {{expertise_area}}, we'd be honored if you would consider serving as a mentor and judge at the {{event_name}} pitch contest.",
+      "placeholders": ["expertise_area", "event_name"],
+      "use_case": "Personalized based on their expertise"
+    },
+    {
+      "id": "mentor-community-service",
+      "text": "We're assembling a distinguished panel of judges for our pitch contest and would love to have you contribute your insights and help identify the next generation of biotech innovators.",
+      "placeholders": [],
+      "use_case": "Emphasizes community contribution and prestige"
+    },
+    {
+      "id": "mentor-recommendation",
+      "text": "Do you know someone in your network who would be an excellent mentor and judge for early-stage biotech startups? We're looking for experienced professionals to help evaluate pitches at our event.",
+      "placeholders": [],
+      "use_case": "Asking for referrals rather than direct participation"
+    }
+  ]
+}

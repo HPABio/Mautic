@@ -1,0 +1,37 @@
+{
+  "id": "cta-buy-ticket",
+  "category": "call-to-action",
+  "tags": ["ticket", "register", "attend", "rsvp"],
+  "variants": [
+    {
+      "id": "ticket-direct-link",
+      "text": "Secure your spot today:\n{{ticket_url}}",
+      "placeholders": ["ticket_url"],
+      "use_case": "Minimal, direct CTA"
+    },
+    {
+      "id": "ticket-urgency",
+      "text": "Tickets are limited and selling fast. Reserve your spot today:\n{{ticket_url}}",
+      "placeholders": ["ticket_url"],
+      "use_case": "Creates urgency (use if true)"
+    },
+    {
+      "id": "ticket-full-info",
+      "text": "Ready to join us? Get your ticket here:\n🎟️ {{ticket_url}}\n\nFor more information about the event, visit: {{event_website}}",
+      "placeholders": ["ticket_url", "event_website"],
+      "use_case": "Ticket + additional info"
+    },
+    {
+      "id": "ticket-early-bird",
+      "text": "Early bird pricing is available for a limited time. Secure your spot at a discounted rate:\n{{ticket_url}}",
+      "placeholders": ["ticket_url"],
+      "use_case": "When early bird pricing is available"
+    },
+    {
+      "id": "ticket-question-first",
+      "text": "Have questions? Feel free to reply to this email.\n\nReady to attend? Get your ticket:\n{{ticket_url}}",
+      "placeholders": ["ticket_url"],
+      "use_case": "Encourages questions before purchase"
+    }
+  ]
+}

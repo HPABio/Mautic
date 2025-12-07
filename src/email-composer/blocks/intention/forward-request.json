@@ -1,0 +1,31 @@
+{
+  "id": "intention-forward",
+  "category": "intention",
+  "tags": ["forward", "delegate", "internal", "students"],
+  "variants": [
+    {
+      "id": "forward-students",
+      "text": "We would be grateful if you could forward information about the {{event_name}} to your PhD students and postdocs. This event could provide valuable networking opportunities and insights into the startup ecosystem for early-career researchers.",
+      "placeholders": ["event_name"],
+      "use_case": "For graduate schools - targeting students"
+    },
+    {
+      "id": "forward-department",
+      "text": "Could you please share information about the {{event_name}} with relevant departments and researchers at {{organization_name}}? We believe this would be particularly valuable for those interested in {{sector}} entrepreneurship.",
+      "placeholders": ["event_name", "organization_name", "sector"],
+      "use_case": "For universities - broader department reach"
+    },
+    {
+      "id": "forward-network-general",
+      "text": "We'd appreciate if you could forward this to anyone in your network who might benefit from attending or participating in the {{event_name}}.",
+      "placeholders": ["event_name"],
+      "use_case": "Generic forward request"
+    },
+    {
+      "id": "forward-portfolio",
+      "text": "We thought you might want to share this opportunity with your portfolio companies or the startups in your ecosystem.",
+      "placeholders": [],
+      "use_case": "For VCs/incubators to share with their startups"
+    }
+  ]
+}

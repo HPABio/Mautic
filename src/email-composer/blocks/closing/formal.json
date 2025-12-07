@@ -1,0 +1,31 @@
+{
+  "id": "closing-formal",
+  "category": "closing",
+  "tags": ["formal", "professional", "business"],
+  "variants": [
+    {
+      "id": "formal-best-regards",
+      "text": "Best regards,\n{{sender_name}}\n{{sender_title}}\n{{sender_organization}}",
+      "placeholders": ["sender_name", "sender_title", "sender_organization"],
+      "use_case": "Standard professional closing"
+    },
+    {
+      "id": "formal-sincerely",
+      "text": "Sincerely,\n{{sender_name}}\n{{sender_title}}\n{{sender_organization}}\n{{sender_email}}",
+      "placeholders": ["sender_name", "sender_title", "sender_organization", "sender_email"],
+      "use_case": "More formal with contact"
+    },
+    {
+      "id": "formal-respectfully",
+      "text": "Respectfully,\n{{sender_name}}\n{{sender_organization}}",
+      "placeholders": ["sender_name", "sender_organization"],
+      "use_case": "Very formal"
+    },
+    {
+      "id": "formal-looking-forward",
+      "text": "Looking forward to hearing from you.\n\nBest regards,\n{{sender_name}}\n{{sender_title}}\n{{sender_organization}}",
+      "placeholders": ["sender_name", "sender_title", "sender_organization"],
+      "use_case": "Formal with anticipation"
+    }
+  ]
+}

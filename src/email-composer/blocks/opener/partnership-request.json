@@ -1,0 +1,25 @@
+{
+  "id": "opener-partnership",
+  "category": "opener",
+  "tags": ["partnership", "support", "collaboration"],
+  "variants": [
+    {
+      "id": "partner-nonprofit-context",
+      "text": "As a non-profit, it is not possible for us to use paid ads as a means to inform about our activities. That's why we rely on biotech community members like you to spread the word.",
+      "placeholders": [],
+      "use_case": "Opening for share requests - establishes nonprofit context"
+    },
+    {
+      "id": "partner-community-builder",
+      "text": "We're reaching out to key community builders like yourself to help us amplify an important event for the biotech ecosystem.",
+      "placeholders": [],
+      "use_case": "Flattering opener positioning recipient as community leader"
+    },
+    {
+      "id": "partner-shared-mission",
+      "text": "Given {{organization_name}}'s commitment to {{shared_value}}, we thought you'd be interested in supporting our upcoming event.",
+      "placeholders": ["organization_name", "shared_value"],
+      "use_case": "When you know their mission/values"
+    }
+  ]
+}

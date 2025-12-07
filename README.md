@@ -4,13 +4,25 @@ A TypeScript SDK for integrating with the Mautic marketing automation platform, 
 
 ## Features
 
+### Mautic API SDK
 - 🔐 **OAuth2 Authentication** - Automatic token management and refresh
 - 📧 **Email Campaigns** - Send targeted emails to contacts and segments
 - 👥 **Contact Management** - Create, update, and organize contacts
 - 🎯 **Segment Management** - Create dynamic contact segments
 - 📊 **Campaign Tracking** - Monitor campaign performance
+
+### Modular Email Composer
+- ✉️ **33+ Reusable Blocks** - Greetings, openers, intentions, value props, CTAs, closings
+- 🎭 **9 Audience Types** - Pre-configured for VCs, startups, nonprofits, journalists, and more
+- 🧬 **Biotech-Optimized** - Purpose-built for synthetic biology and biotech ecosystem outreach
+- 🔄 **Variable Substitution** - Safe placeholder replacement with fallback handling
+- 📦 **Batch Processing** - Generate hundreds of personalized emails efficiently
+- 🧪 **A/B Testing Ready** - Multiple variants per block for optimization
+
+### Developer Experience
 - 🚀 **TypeScript First** - Full type safety and IntelliSense
 - ⚡ **Built with Bun** - Fast runtime and package management
+- 🔌 **n8n Integration** - Workflow automation examples included
 
 ## Prerequisites
 
@@ -92,23 +104,59 @@ await mautic.emails.sendToContact(emailId, contact.id!);
 
 ## Examples
 
-### Basic Usage
+### Mautic API Usage
 
 ```bash
+# Basic Mautic API operations
 bun run src/examples/basic-usage.ts
-```
 
-### Biotech Event Campaign
-
-```bash
+# Biotech event campaign with Mautic
 bun run src/examples/email-campaign.ts
 ```
 
-This example demonstrates:
-- Creating a segment for biotech researchers
-- Adding contacts to the segment
-- Creating an email template
-- Sending a targeted campaign
+### Email Composer
+
+```bash
+# Email composition examples (all audience types)
+bun run src/examples/email-composer-usage.ts
+
+# Full Mautic + Email Composer integration
+bun run src/examples/mautic-email-campaign.ts
+```
+
+**What the Email Composer does:**
+- Generates personalized emails from modular blocks
+- Supports 9 audience types (VCs, startups, nonprofits, journalists, etc.)
+- Uses 33+ biotech-specific email blocks
+- Integrates seamlessly with Mautic API for sending
+
+**Quick Example:**
+
+```typescript
+import { EmailComposer } from './src/email-composer/email-composer';
+
+const composer = new EmailComposer();
+await composer.initialize();
+
+// Generate personalized email for a VC
+const email = await composer.composeEmail({
+  audience_type: 'vcs',
+  first_name: 'Andreas',
+  last_name: 'Mueller',
+  email: 'a.mueller@biotech-ventures.de',
+  organization_name: 'BioTech Ventures GmbH',
+  sender_name: 'Thomas Weber',
+  sender_email: 'thomas@synbioreactor.org',
+});
+
+console.log(email.subject);
+// "Invitation: SynBio Reactor Summit - Biotech Startup Showcase"
+
+console.log(email.body);
+// Fully composed, personalized email with appropriate tone and messaging
+```
+
+See [Email Composer README](src/email-composer/README.md) for complete documentation.
 
 ## API Reference
 
@@ -230,14 +278,32 @@ Mautic/
 │   ├── hooks/           # Session hooks
 │   └── settings.json    # Claude settings
 ├── src/
-│   ├── api/             # API modules
+│   ├── api/             # Mautic API modules
 │   │   ├── auth.ts      # OAuth2 authentication
 │   │   ├── client.ts    # Base API client
 │   │   ├── contacts.ts  # Contact management
 │   │   ├── emails.ts    # Email operations
 │   │   ├── segments.ts  # Segment management
 │   │   └── campaigns.ts # Campaign operations
-│   ├── config/          # Configuration
+│   ├── email-composer/  # 📧 Modular email composition system
+│   │   ├── blocks/      # 33 email blocks across 7 categories
+│   │   │   ├── greeting/
+│   │   │   ├── opener/
+│   │   │   ├── intention/
+│   │   │   ├── event-info/
+│   │   │   ├── value-proposition/
+│   │   │   ├── cta/
+│   │   │   └── closing/
+│   │   ├── config/      # Audience and event configurations
+│   │   │   ├── audiences.json
+│   │   │   └── event-details.json
+│   │   ├── email-composer.ts
+│   │   ├── block-selector.ts
+│   │   ├── variable-substitution.ts
+│   │   └── README.md
+│   ├── integrations/    # Third-party integrations
+│   │   └── n8n/        # n8n workflow examples
+│   ├── config/          # SDK configuration
 │   ├── types/           # TypeScript types
 │   ├── examples/        # Usage examples
 │   └── index.ts         # Main SDK export

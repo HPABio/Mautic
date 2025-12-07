@@ -1,0 +1,32 @@
+{
+  "id": "greeting-casual",
+  "category": "greeting",
+  "tags": ["casual", "friendly", "approachable"],
+  "tone": "casual",
+  "variants": [
+    {
+      "id": "casual-hello-first",
+      "text": "Hello {{first_name}},",
+      "placeholders": ["first_name"],
+      "use_case": "Friendly but professional"
+    },
+    {
+      "id": "casual-hi-first",
+      "text": "Hi {{first_name}},",
+      "placeholders": ["first_name"],
+      "use_case": "Casual and warm"
+    },
+    {
+      "id": "casual-good-morning",
+      "text": "Good morning {{title}} {{last_name}},",
+      "placeholders": ["title", "last_name"],
+      "use_case": "Time-specific, somewhat formal"
+    },
+    {
+      "id": "casual-hello-team",
+      "text": "Hello {{organization_name}} team,",
+      "placeholders": ["organization_name"],
+      "use_case": "When addressing an organization"
+    }
+  ]
+}

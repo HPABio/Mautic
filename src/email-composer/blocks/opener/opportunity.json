@@ -1,0 +1,25 @@
+{
+  "id": "opener-opportunity",
+  "category": "opener",
+  "tags": ["opportunity", "participate", "benefit"],
+  "variants": [
+    {
+      "id": "opportunity-startup",
+      "text": "I'm reaching out with an exciting opportunity for {{company_name}} to gain exposure in front of top investors and industry leaders.",
+      "placeholders": ["company_name"],
+      "use_case": "For startups - pitch contest invitation"
+    },
+    {
+      "id": "opportunity-mentor",
+      "text": "We're assembling a panel of respected industry experts to mentor and judge at our upcoming startup event, and your name came up immediately.",
+      "placeholders": [],
+      "use_case": "Flattering opener for mentor/judge invitations"
+    },
+    {
+      "id": "opportunity-first-mover",
+      "text": "As a newly established player in the {{sector}} ecosystem, this could be an excellent opportunity for {{organization_name}} to make an initial impact and connect with the community.",
+      "placeholders": ["sector", "organization_name"],
+      "use_case": "For new startup factories/incubators"
+    }
+  ]
+}

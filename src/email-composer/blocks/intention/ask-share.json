@@ -1,0 +1,31 @@
+{
+  "id": "intention-ask-share",
+  "category": "intention",
+  "tags": ["ask", "share", "promotion", "social-media"],
+  "variants": [
+    {
+      "id": "share-network-basic",
+      "text": "We kindly ask you to share our upcoming startup-focused event, the {{event_name}}, with your network.",
+      "placeholders": ["event_name"],
+      "use_case": "Simple, direct ask"
+    },
+    {
+      "id": "share-nonprofit-peers",
+      "text": "We kindly ask you to share our upcoming startup-focused event, the {{event_name}}, with your network. As a fellow organization in the biotech space, you know best who in your community would benefit from this event.",
+      "placeholders": ["event_name"],
+      "use_case": "For other nonprofits/organizations"
+    },
+    {
+      "id": "share-startup-peers",
+      "text": "We kindly ask you to share our upcoming startup-focused event, the {{event_name}}, with your network. As a startup, you know where your peers are and who might benefit from an event like this.",
+      "placeholders": ["event_name"],
+      "use_case": "For startups (peer-to-peer angle)"
+    },
+    {
+      "id": "share-social-posts",
+      "text": "Would you be willing to share information about the {{event_name}} on your social media channels and with your professional network?",
+      "placeholders": ["event_name"],
+      "use_case": "Question format, more polite"
+    }
+  ]
+}
