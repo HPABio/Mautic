@@ -1,0 +1,9 @@
+{
+  "mcpServers": {},
+  "autoRunPrompts": {
+    "enabled": true
+  },
+  "hooks": {
+    "sessionStart": ".claude/hooks/session-start.fish"
+  }
+}
